@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <!--Bootstrap CSS-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <!--Custom CSS-->
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <nav class="mb-4 container navbar navbar-expand-lg navbar-dark bg-primary ">
+            <a class="navbar-brand ms-2 " href="#"><b>Uzair's Calculator</b></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+        </nav>
+    </header>
+  <main>
+    <div class=" mt-5 calculator">
+        <input type="text" placeholder="0" class="display" />
+        <div class="buttons">
+          <button class="operator" data-value="AC">AC</button>
+          <button class="operator" data-value="DE">DE</button>
+          <button class="operator" data-value="%">%</button>
+          <button class="operator" data-value="/">/</button>
+          <button data-value="7">7</button>
+          <button data-value="8">8</button>
+          <button data-value="9">9</button>
+          <button class="operator" data-value="*">*</button>
+          <button data-value="4">4</button>
+          <button data-value="5">5</button>
+          <button data-value="6">6</button>
+          <button class="operator" data-value="-">-</button>
+          <button data-value="1">1</button>
+          <button data-value="2">2</button>
+          <button data-value="3">3</button>
+          <button class="operator" data-value="+">+</button>
+          <button data-value="0">0</button>
+          <button data-value="00">00</button>
+          <button data-value=".">.</button>
+          <button class="operator" data-value="=">=</button>
+        </div>
+      </div>
+    </main>
+  <footer >
+        <div class="container mt-5">
+            <div class="row ">
+                <div class="col">
+                    <p class="mb-0 mt-5 text-center text-white py-2 bg-primary">&copy;2024. Calculator By <b><a
+                                class="text-decoration-none text-white" href="https://umairahmad.net/">Muhammad
+                                Uzair Shahbaz </a></b></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+  <!-- Custom JS -->
+  <script src="JS/script.js"></script>
+</body>
+</html>
